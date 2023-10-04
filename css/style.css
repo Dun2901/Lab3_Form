@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #999;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: Tahoma, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+
+}
+.signup__heading {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.form__group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.form__group--2 {
+    display: flex;
+    justify-content: space-between;
+}
+.form__input {
+    font-family: Tahoma, Arial, sans-serif;
+    display: block;
+    width: 100%;
+    color: black;
+    padding: 25px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+    background-color: #eee;
+}
+.form__input:focus {
+    border-color: #eee;
+    background-color: white;
+}
+.form__group--2 > .form__input {
+    width: calc(50% - 10px);
+}
+.form__submit {
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    outline: none;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form__submit ion-icon {
+    margin-left: 5px;
+}
+.form__submit:hover {
+    background-color: #555555;
+}
+
+.form__services {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.form__services label {
+    font-weight: bold;
+    left: 20px;
+    top: 6px;
+    position: absolute;
+    pointer-events: none;
+    transition: all 0.2s ease;
+    opacity: 0.5;
+}
+
+.form__services select {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    outline: none;
+    font-size: 16px;
+}
+
+.form__area {
+    font-family: Tahoma, Arial, sans-serif;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #eee;
+    background-color: #eee;
+    resize: vertical;
+}
+
+.form__area:focus {
+    border-color: #eee;
+    background-color: white;
+}
+/* Định vị label cho các input và select */
+.form__group label {
+    position: absolute;
+    top: 6px;
+    left: 25px;
+    pointer-events: none;
+    transition: all 0.2s ease;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+
